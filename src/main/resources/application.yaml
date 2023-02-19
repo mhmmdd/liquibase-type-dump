@@ -1,0 +1,16 @@
+spring:
+  datasource:
+    type: com.zaxxer.hikari.HikariDataSource
+    #        url: jdbc:oracle:thin:@192.168.33.10:1521/xepdb1
+    url: jdbc:postgresql://192.168.33.10:5432/postgres
+    username: test
+    password: test
+    hikari:
+      data-source-properties:
+        cachePrepStmts: true
+        prepStmtCacheSize: 250
+        prepStmtCacheSqlLimit: 2048
+        useServerPrepStmts: true
+  liquibase:
+    change-log: classpath:db/changelog/all_types-liquibase-changeset.yaml
+    enabled: true
