@@ -10,7 +10,7 @@ def databases = [MySQLDatabase, MSSQLDatabase, PostgresDatabase, OracleDatabase]
 datatypes.each {
     def datatype = it.newInstance()
     datatype.finishInitialization("")
-    println $datatype.name
+    println datatype.name
     databases.each { println "$it.simpleName: ${datatype.toDatabaseDataType(it.newInstance())}"}
     println ''
 }
