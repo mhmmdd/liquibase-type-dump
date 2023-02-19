@@ -1,0 +1,137 @@
+boolean
+MySQLDatabase: BIT(1)
+MSSQLDatabase: bit
+PostgresDatabase: BOOLEAN
+OracleDatabase: NUMBER(1)
+
+tinyint
+MySQLDatabase: TINYINT
+MSSQLDatabase: tinyint
+PostgresDatabase: SMALLINT
+OracleDatabase: NUMBER(3)
+
+int
+MySQLDatabase: INT
+MSSQLDatabase: int
+PostgresDatabase: INTEGER
+OracleDatabase: INTEGER
+
+mediumint
+MySQLDatabase: MEDIUMINT
+MSSQLDatabase: int
+PostgresDatabase: MEDIUMINT
+OracleDatabase: MEDIUMINT
+
+bigint
+MySQLDatabase: BIGINT
+MSSQLDatabase: bigint
+PostgresDatabase: BIGINT
+OracleDatabase: NUMBER(38, 0)
+
+float
+MySQLDatabase: FLOAT
+MSSQLDatabase: float(53)
+PostgresDatabase: FLOAT
+OracleDatabase: FLOAT
+
+double
+MySQLDatabase: DOUBLE
+MSSQLDatabase: float(53)
+PostgresDatabase: DOUBLE PRECISION
+OracleDatabase: FLOAT(24)
+
+decimal
+MySQLDatabase: DECIMAL
+MSSQLDatabase: decimal(18, 0)
+PostgresDatabase: DECIMAL
+OracleDatabase: DECIMAL
+
+number
+MySQLDatabase: numeric
+MSSQLDatabase: numeric(18, 0)
+PostgresDatabase: numeric
+OracleDatabase: NUMBER
+
+blob
+MySQLDatabase: LONGBLOB
+MSSQLDatabase: varbinary(MAX)
+PostgresDatabase: BYTEA
+OracleDatabase: BLOB
+
+function
+MySQLDatabase: FUNCTION
+MSSQLDatabase: [function]
+PostgresDatabase: FUNCTION
+OracleDatabase: FUNCTION
+
+UNKNOWN
+MySQLDatabase: UNKNOWN
+MSSQLDatabase: UNKNOWN
+PostgresDatabase: UNKNOWN
+OracleDatabase: UNKNOWN
+
+datetime
+MySQLDatabase: datetime
+MSSQLDatabase: datetime
+PostgresDatabase: TIMESTAMP WITHOUT TIME ZONE
+OracleDatabase: TIMESTAMP
+
+time
+MySQLDatabase: time
+MSSQLDatabase: time
+PostgresDatabase: time WITHOUT TIME ZONE
+OracleDatabase: DATE
+
+timestamp
+MySQLDatabase: timestamp
+MSSQLDatabase: datetime2
+PostgresDatabase: TIMESTAMP WITHOUT TIME ZONE
+OracleDatabase: TIMESTAMP
+
+date
+MySQLDatabase: date
+MSSQLDatabase: date
+PostgresDatabase: date
+OracleDatabase: date
+
+char
+MySQLDatabase: CHAR
+MSSQLDatabase: char(1)
+PostgresDatabase: CHAR
+OracleDatabase: CHAR
+
+varchar
+MySQLDatabase: VARCHAR
+MSSQLDatabase: varchar(1)
+PostgresDatabase: VARCHAR
+OracleDatabase: VARCHAR2
+
+nchar
+MySQLDatabase: NCHAR
+MSSQLDatabase: nchar(1)
+PostgresDatabase: NCHAR
+OracleDatabase: NCHAR
+
+nvarchar
+MySQLDatabase: NVARCHAR
+MSSQLDatabase: nvarchar(1)
+PostgresDatabase: VARCHAR
+OracleDatabase: NVARCHAR2
+
+clob
+MySQLDatabase: LONGTEXT
+MSSQLDatabase: varchar(MAX)
+PostgresDatabase: TEXT
+OracleDatabase: CLOB
+
+currency
+MySQLDatabase: DECIMAL
+MSSQLDatabase: money
+PostgresDatabase: DECIMAL
+OracleDatabase: NUMBER(15, 2)
+
+uuid
+MySQLDatabase: char(36)
+MSSQLDatabase: uniqueidentifier
+PostgresDatabase: UUID
+OracleDatabase: RAW(16)

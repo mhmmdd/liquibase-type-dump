@@ -40,8 +40,33 @@
 		<dependency>
 			<groupId>org.postgresql</groupId>
 			<artifactId>postgresql</artifactId>
-			<version>42.2.5</version>
+			<version>42.5.4</version>
 		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc11 -->
+		<dependency>
+			<groupId>com.oracle.database.jdbc</groupId>
+			<artifactId>ojdbc11</artifactId>
+			<version>21.9.0.0</version>
+		</dependency>
+
+
+		<!-- For Liquibase Groovy Script -->
+		<!-- https://mvnrepository.com/artifact/org.apache.groovy/groovy -->
+		<dependency>
+			<groupId>org.apache.groovy</groupId>
+			<artifactId>groovy</artifactId>
+			<version>4.0.9</version>
+		</dependency>
+
+		<!-- https://mvnrepository.com/artifact/org.apache.ivy/ivy -->
+		<dependency>
+			<groupId>org.apache.ivy</groupId>
+			<artifactId>ivy</artifactId>
+			<version>2.5.1</version>
+		</dependency>
+		<!-- For Liquibase Groovy Script -->
+
 	</dependencies>
 
 	<build>

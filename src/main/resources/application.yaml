@@ -1,8 +1,8 @@
 spring:
   datasource:
     type: com.zaxxer.hikari.HikariDataSource
-    #        url: jdbc:oracle:thin:@192.168.33.10:1521/xepdb1
-    url: jdbc:postgresql://192.168.33.10:5432/postgres
+    url: jdbc:oracle:thin:@192.168.33.10:1521/xepdb1
+#    url: jdbc:postgresql://192.168.33.10:5432/postgres
     username: test
     password: test
     hikari:
