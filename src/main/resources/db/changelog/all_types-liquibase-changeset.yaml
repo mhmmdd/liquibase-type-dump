@@ -337,3 +337,4 @@ databaseChangeLog:
                       name: my_uuid
                       type: uuid
               tableName: oracle_type
+              remarks: my table comment
